@@ -2,4 +2,4 @@
 
 
 
-[![sample video](https://img.youtube.com/vi/oPgThikE30M/0.jpg)](https://www.youtube.com/watch?v=oPgThikE30M)
+[![sample video](https://github.com/sound-wizards/neopixel_colorChange_sample)
