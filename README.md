@@ -1,1 +1,1 @@
-[sample video](https://raw.githack.com/sound-wizards/neopixel_colorChange_sample/index.html)
+https://youtu.be/oPgThikE30M?si=eIx6-4-nX7V-d7Pt
