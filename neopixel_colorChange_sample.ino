@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 6        // NeoPixel 데이터 핀
-#define NUM_LEDS 8   // NeoPixel LED 개수
+#define PIN A5        // NeoPixel 데이터 핀
+#define NUM_LEDS 12   // NeoPixel LED 개수
 
 Adafruit_NeoPixel strip(NUM_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
@@ -60,8 +60,8 @@ void setup() {
 
 void loop() {
   // 가변저항 값 안정화
-  int hueValue = smoothAnalogRead(A0);        // Hue (0-1023)
-  int intensityValue = smoothAnalogRead(A1); // Intensity (0-1023)
+  int hueValue = smoothAnalogRead(A1);        // Hue (0-1023)
+  int intensityValue = smoothAnalogRead(A3); // Intensity (0-1023)
 
   // Hue와 Intensity를 변환
   float hue = map(hueValue, 0, 1023, 0, 360);        // 0-360으로 매핑
